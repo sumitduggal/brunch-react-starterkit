@@ -1,0 +1,33 @@
+{
+  "name": "brunch-react-styleguide-template",
+  "description": "A template for bootstrapping development with Brunch, React, Styled-components and some more packages.",
+  "private": true,
+  "author": "sumit duggal <sumitduggal1988@gmail.com>",
+  "version": "0.0.1",
+  "repository": "",
+  "license": "MIT",
+  "keywords": ["react", "styled-components", "brunch"],
+  "scripts": {
+    "start": "brunch watch --server",
+    "build": "brunch build --production"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "styled-theme": "^0.3.3"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2",
+    "babel-brunch": "~6.0",
+    "babel-eslint": "^8.2.1",
+    "babel-plugin-styled-components": "^1.5.0",
+    "babel-preset-latest": "^6",
+    "babel-preset-react": "^6.24.1",
+    "brunch": "^2",
+    "clean-css-brunch": "^2",
+    "imagemin-brunch": "^1.1.0",
+    "styled-components": "^3.1.6",
+    "uglify-js-brunch": "^2"
+  }
+}
